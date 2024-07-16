@@ -4,7 +4,7 @@ body, html {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: #0000FF; /* Azul */
+    background: #0e0e0e;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -29,7 +29,7 @@ body, html {
     position: absolute;
     width: 2px;
     height: 100px;
-    background: rgba(0, 0, 0, 0.6); /* Preto */
+    background: rgba(255, 255, 255, 0.6);
     bottom: 100%;
     animation: fall linear infinite, sway 2s ease-in-out infinite;
 }
@@ -87,7 +87,7 @@ body, html {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: rgba(0, 0, 0, 0.6); /* Preto */
+    background: rgba(255, 255, 255, 0.6);
     animation: ripple 1s linear;
 }
 
